@@ -181,7 +181,7 @@ const TodoList = () => {
                   </div>
                 </div>
               </div>
-              <div className="mt-4 flex flex-col sm:flex-row justify-end space-y-2 sm:space-y-0 sm:space-x-3">
+              <div className="mt-4 flex flex-row justify-end space-x-2 sm:space-x-3">
                 <Link
                   to={`/edit/${todo._id}`}
                   className="p-2 text-gray-600 hover:text-blue-600 transition-colors duration-200"
