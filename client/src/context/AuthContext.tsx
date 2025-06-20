@@ -48,7 +48,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   }, [token, user]);
 
   const instance = axios.create({
-    baseURL: 'http://localhost:5000', // <-- Make sure this matches your backend port
+    baseURL: 'https://focusflow.up.railway.app', // <-- Make sure this matches your backend port
   });
 
   const login = async (email: string, password: string) => {
